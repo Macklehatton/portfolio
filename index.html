@@ -1,0 +1,8 @@
+---
+layout: layout.html
+title: index
+---
+
+{% for page in collections.page %}
+<nav><a href="{{ page.url }}">{{ page.data.title }}</a></nav>
+{% endfor %}

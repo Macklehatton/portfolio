@@ -1,0 +1,96 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.gallery-item {
+    border-radius: 0.3rem;
+    max-height: 15rem;
+    max-width: 15rem;
+}
+
+.tagline {
+    font-style: italic;
+}
+
+.flex-grid {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+.left-margin {
+    flex: 0.4;
+}
+
+.right-margin {
+    flex: 0.5;
+}
+
+:root {
+    --max-res: 1000px;
+}
+
+@media (width <=1000px) and (width > 800px) {
+
+    .left-margin {
+        flex: 0.25;
+    }
+
+    .right-margin {
+        flex: 0;
+    }
+}
+
+@media (width <=800px) and (width > 700px) {
+    .left-margin {
+        flex: 0.1;
+    }
+
+    .right-margin {
+        flex: 0;
+    }
+}
+
+@media (width <=700px) {
+    .left-margin {
+        flex: 0;
+    }
+
+    .right-margin {
+        flex: 0;
+    }
+}
+
+
+
+header {
+    margin-bottom: 1.5em;
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+    color: rgb(173, 173, 173);
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+    font-family: 'montserat', Arial, Helvetica, sans-serif;
+
+    nav {
+        line-height: 30px;
+        list-style: none;
+    }
+
+    a:link,
+    a:visited {
+        color: rgb(142, 187, 204);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: rgb(105, 105, 105);
+        text-decoration: none;
+    }
+}
