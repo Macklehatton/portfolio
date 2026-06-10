@@ -3,3 +3,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("video");
     eleventyConfig.addPassthroughCopy("styles.css");
 };
+
+module.exports.config = {
+    pathPrefix: "/portfolio/"
+}
