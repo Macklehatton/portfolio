@@ -37,7 +37,7 @@
 @media (width <=1000px) and (width > 800px) {
 
     .left-margin {
-        flex: 0.25;
+        flex: 0.2;
     }
 
     .right-margin {
